@@ -1,0 +1,3 @@
+[submodule "rulebase-stateful-frontend"]
+	path = rulebase-stateful-frontend
+	url = https://github.com/username/rulebase-stateful-frontend.git

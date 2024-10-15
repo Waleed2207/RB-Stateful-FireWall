@@ -1,0 +1,8 @@
+{
+    "syn_flood_threshold": 100,
+    "syn_time_window": 60,
+    "port_scan_threshold": 27,
+    "port_scan_time_window": 62,
+    "icmp_flood_threshold": 98,
+    "icmp_time_window": 68
+}

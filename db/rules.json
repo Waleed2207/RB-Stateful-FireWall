@@ -1,0 +1,28 @@
+[
+  {
+    "source_ip": "10.0.0.9",
+    "destination_ip": "10.0.0.10",
+    "source_port": "8888",
+    "destination_port": "8080",
+    "protocol": "TCP",
+    "state": "SYN_RECEIVED",
+    "action": "deny",
+    "log_action": true,
+    "rate_limit": 2,
+    "limit_window": 2,
+    "id": "710574"
+  },
+  {
+    "source_ip": "10.0.0.9",
+    "destination_ip": "10.0.0.34",
+    "source_port": "12345",
+    "destination_port": "any",
+    "protocol": "TCP",
+    "state": "SYN_RECEIVED",
+    "action": "deny",
+    "log_action": true,
+    "rate_limit": 1,
+    "limit_window": 3,
+    "id": "935594"
+  }
+]
